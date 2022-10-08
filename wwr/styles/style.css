@@ -1,0 +1,98 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a {text-align: center;
+       padding: 10px;
+       text-transform: uppercase;
+    }
+#hero-msg h1{text-align: center;}
+#hero-msg h4{text-align: center;}
+.button-box{text-align: center;}
+main section{text-align: center;}
+
+#background {
+    height: 725px;
+    background-color: #396e94;
+} 
+
+body {
+    background-color: #ffffff; 
+}
+header {
+    background-color:#0090c1;
+    padding: 10px;
+}
+nav a:hover {
+    transition: 1s;
+    background-color: #022f40;
+
+}
+.book, .join {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #022f40;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.book:hover{
+    color: #38AECC;
+}
+ 
+.join:hover{
+    color: #38AECC;
+}
+.msg{
+    color: #ffffff;
+    background-color: #396e94;
+    padding: 10px;
+} 
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+.logo {
+    width: 80px;
+    margin: 10px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+.book  {
+    text-align: center;;
+    text-decoration: none;
+}
+.join {
+    text-align: center;
+    text-decoration: none;
+}
+footer{
+    background-color: #022f40;
+    padding: 10px;
+}    
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}   
+footer p {
+    font-size: 1em;
+    color: #ffffff;
+}
+footer p a:hover {
+    text-decoration: underline;
+    color: #38AECC;
+
+} 
