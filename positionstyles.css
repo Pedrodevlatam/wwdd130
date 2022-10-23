@@ -172,9 +172,8 @@
   width: 400px; 
   height: 200px; 
   background-color: red;
-  grid-column: 1 / 2;
-  z-index: -1;
-   
+  /*grid-column: 1 / 2;*/
+  z-index: -1;   
 } 
 .green6 {
   width: 200px; 
@@ -191,6 +190,8 @@
   background-color: gold;
   grid-column: 2/3;
   grid-row: 2/6;
+  margin-left: -120px;
+  
 } 
 .blue6 {
   width: 450px; 
