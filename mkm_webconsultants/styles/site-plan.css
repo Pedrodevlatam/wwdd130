@@ -20,7 +20,7 @@ Fonts are separated by a | */
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #55007c;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-color: w#70bde8; /* headlines on a colored background */ 
   --paragraph-color-on-white: #c288d6; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #55007c; /* paragraph text on a colored background */ 
   --paragraph-background-color: #b7def3  ;
@@ -160,6 +160,13 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+.sm-page4 {
+  grid-area: page4;
+  background-color: #b1b1b1;;
+  line-height: 3em;
+  grid-row: auto;
+  grid-column: 3/5;
+}
 
 .top {
   grid-area: top;
@@ -176,4 +183,5 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+  border-left: 1px solid;
 }
