@@ -119,6 +119,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  font-family: 'Poppins';
 
 }
 nav a:link, nav a:visited {
@@ -154,11 +155,13 @@ nav a:hover {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
+  font-family: 'Poppins';
 }
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
+  font-family: 'Poppins';
 }
 .sm-page4 {
   grid-area: page4;
@@ -166,11 +169,13 @@ nav a:hover {
   line-height: 3em;
   grid-row: auto;
   grid-column: 3/5;
+  font-family: 'Poppins';
 }
 
 .top {
   grid-area: top;
   border-left: 1px solid;
+  font-family: 'Poppins';
 }
 
 .left {
