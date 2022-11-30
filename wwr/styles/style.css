@@ -34,7 +34,7 @@ nav a {
     text-align: center;
     text-transform: uppercase;
     }
-/*css slide start*/
+/*css slide river start*/
 * {
   box-sizing:content-box
 }
@@ -173,7 +173,8 @@ nav a {
 #slide-select .selector.current {
   background-color: white;
 }
-/*css slide finishes*/  
+/*css slide river finishes*/  
+
 .titles_river{
 margin-top: 400px;
 text-align: center;
