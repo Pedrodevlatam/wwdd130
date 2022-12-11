@@ -3,6 +3,7 @@
     max-width: 1700px;
     margin: 0 auto;
     font-family: "Montserrat", Sans-serif
+
 }  
 /*start menu styles*/  
 nav {
@@ -117,7 +118,6 @@ nav.fill ul li a:hover:after {
 .home-title {
         padding-left: 40px;
         color: #56007c;
-        font-size: 40px;
         font-weight: bold;
         line-height: 1;
         }
@@ -418,19 +418,117 @@ nav.fill ul li a:hover:after {
         z-index: +1;
 }
 /*page2 grid3 end*/
-.page3-grid {
+
+/*page3 grid1 start*/
+
+ .banner-page3-grid {
         display: grid;
-        margin-top: 150px;
-        margin-right: auto;
-        margin-bottom: 100px;
-        margin-left: auto;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 380px;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: 20% 10% 30% 30% 20%;
-        font-family: "Montserrat", Sans-serif;
-        color: #56007c;
-        
+        grid-template-columns: 15% 25% 10% 40% 10%;
+        grid-template-rows: 25% 10% 30% 10% 25%;
+        height: 550px;
+        font-family: "Montserrat", Sans-serif; 
+        margin-bottom: 30px;
+        background-image: url(../images/banner_background.jpg);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-position: center;
+ }        
+.bannerpage3-paragraphback {
+        grid-column: 2/6;
+        grid-row: 2/5;
+        background: rgb(255,255,255);
+        background: linear-gradient(88deg, rgba(255, 255, 255, 0) 1%, rgba(255,255,255,0.9220063025210083) 29%);
 }
+@keyframes float {
+	50% {
+		transform: translatey(-3px);
+	}
+}
+.banner2-img{
+        grid-column: 2/3;
+        height: 550px;
+        transform: translatey(0px);
+        animation: float 1s ease-in-out infinite;
+}
+.bannerparagraph{
+        margin-top: 50px;
+        grid-column: 4/5;
+        grid-row: 2/3;
+        text-align: left;
+        color:#56007c;
+        z-index: +1;
+        }
+
+/*page3 grid1 end*/
+
+
+/*page3 grid2 start*/
+
+.page3-grid2 {
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 10% repeat(3, 25%) 10%;
+        grid-template-rows: 10% repeat(2, 5%) 75% 5%;
+        height: 756px;
+        font-family: "Montserrat", Sans-serif; 
+        background-color: #fff;
+        margin-bottom: 50px;
+
+ }
+ .page3-image2{
+        grid-column: 3/4;
+        grid-row: 3/5;
+        background-image: url(../images/plans-mkm-02.png);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: transform 1s;      
+ }
+ .page3-image2:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+        }
+
+ .page3-image1{
+        grid-column: 2/3;
+        grid-row: 4/6;
+        background-image: url(../images/plans-mkm-01.png);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: transform 1s;
+ }
+ .page3-image1:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+}
+ .page3-image3{
+        grid-column: 4/5;
+        grid-row: 4/6;
+        background-image: url(../images/plans-mkm-03.png);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: transform 1s;
+ }
+.page3-image3:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+}
+
+.plans-tittle{
+        grid-column: 2/5;
+        grid-row: 1/2;
+        font-size: 25px;
+        color:#56007c;
+        text-align: center;
+}
+
+
+/*page3 grid2 end*/
+
+
