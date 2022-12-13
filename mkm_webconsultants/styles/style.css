@@ -247,7 +247,8 @@ nav.fill ul li a:hover:after {
         background-color: #56007c;
         color: #fff;
         font-family: "Montserrat", Sans-serif;
-        font-size: 13px;       
+        font-size: 13px;
+        height: 140px;       
 }
 .footerbox0{
         grid-column: 2/3;
@@ -531,4 +532,268 @@ nav.fill ul li a:hover:after {
 
 /*page3 grid2 end*/
 
+/*page4 grid1 start*/
 
+.banner-page4-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 10%) 40% 25% 15%;
+        grid-template-rows: 25% 10% 30% 10% 25%;
+        height: 550px;
+        font-family: "Montserrat", Sans-serif; 
+        margin-bottom: 30px;
+        background-image: url(../images/banner_background.jpg);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-position: center;
+ }        
+.bannerpage4-paragraphback {
+        grid-column: 1/5;
+        grid-row: 2/5;
+        background: rgb(255,255,255);
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 1%, rgba(255,255,255,0.9220063025210083) 29%);
+}
+@keyframes float {
+	50% {
+		transform: translatey(-3px);
+	}
+}
+.banner3-img{
+        grid-column: 4/5;
+        height: 550px;
+        transform: translatey(0px);
+        animation: float 2s ease-in-out infinite;
+}
+.bannerparagraph4{
+        margin-top: 50px;
+        grid-column: 2/4;
+        grid-row: 2/3;
+        text-align: right;
+        color:#56007c;
+        z-index: +1;
+        }
+
+/*page4 grid1 end*/
+
+
+/*page4 grid2 start*/
+
+.page4-grid2 {
+        display: grid;
+        width:80%;
+        margin: 0 auto;
+        grid-template-columns: 10% repeat(3, 25%) 10%;
+        grid-template-rows: repeat(3, 10%) 60% 10%;
+        grid-column-gap: 16px;
+        height: 500px;
+        font-family: "Montserrat", Sans-serif; 
+        background-color: #fff;
+        margin-bottom: 50px;
+ }
+.page4-back2 {
+        grid-column: 3/4;
+        grid-row: 3/5;
+        background: rgb(86,0,124);
+        background: linear-gradient(329deg, rgba(86,0,124,1) 63%, rgba(0,0,0,1) 93%);
+        border-radius: 30px;   
+}
+.paragraph-pag4-2 {
+        grid-column: 3/4;
+        grid-row: 3/5;
+        text-align: center;
+        padding: 80px;
+        color: #fff;
+}
+.avatar2 {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        margin-inline: auto;
+        margin-top: -133px;
+        transform: scale(1.1);
+}
+.page4-back1 {
+        grid-column: 2/3;
+        grid-row: 4/6;
+        background: rgb(86,0,124);
+        background: linear-gradient(329deg, rgba(86,0,124,1) 63%, rgba(0,0,0,1) 93%);
+        border-radius: 30px;   
+}
+.paragraph-pag4-1 {
+        grid-column: 2/3;
+        grid-row: 4/6;
+        text-align: center;
+        padding: 80px;
+        color: #fff;
+}
+.avatar1 {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        margin-inline: auto;
+        margin-top: -82px;
+        transform: scale(1.1);
+}
+
+.page4-back3 {
+        grid-column: 4/5;
+        grid-row: 4/6;
+        background: rgb(86,0,124);
+        background: linear-gradient(329deg, rgba(86,0,124,1) 63%, rgba(0,0,0,1) 93%);
+        border-radius: 30px;   
+}
+.paragraph-pag4-3 {
+        grid-column: 4/5;
+        grid-row: 4/6;
+        text-align: center;
+        padding: 62px;
+        color: #fff;
+}
+.avatar3 {
+        grid-column: 4/5;
+        grid-row: 1/4;
+        margin-inline: auto;
+        margin-top: -82px;
+        transform: scale(1.1);
+}
+
+/*page4 grid2 end*/
+
+/*page4 grid3 start*/
+.page4-grid3 {
+        display: grid;
+        width:80%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 30%) repeat(2, 20%);
+        grid-template-rows: repeat(2, 1fr);
+        height: 500px;
+        font-family: "Montserrat", Sans-serif; 
+        background-color:#b7def3;
+        margin-bottom: 50px;
+}
+.iframe-map{
+        grid-column: 3/5;
+        grid-row: 1/3;
+        margin: auto;
+}
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }      
+.container {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        margin: 0 auto;
+        width: 90%;
+        padding-left: 40px;
+}   
+      #contact input[type="text"],
+      #contact input[type="email"],
+      #contact input[type="tel"],
+      #contact input[type="url"],
+      #contact textarea,
+      #contact button[type="submit"] {
+        font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+      }
+      
+      #contact {
+        background: #70bde8;
+        padding: 25px;
+        margin-top: 20px;
+        box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+      }
+      
+      #contact h3 {
+        display: block;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+      
+      #contact h4 {
+        margin: 5px 0 15px;
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+      }
+      
+      fieldset {
+        border: medium none !important;
+        margin: 0 0 10px;
+        min-width: 100%;
+        padding: 0;
+        width: 100%;
+      }
+      
+      #contact input[type="text"],
+      #contact input[type="email"],
+      #contact input[type="tel"],
+      #contact input[type="url"],
+      #contact textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        background: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+      }
+      
+      #contact input[type="text"]:hover,
+      #contact input[type="email"]:hover,
+      #contact input[type="tel"]:hover,
+      #contact input[type="url"]:hover,
+      #contact textarea:hover {
+        -webkit-transition: border-color 0.3s ease-in-out;
+        -moz-transition: border-color 0.3s ease-in-out;
+        transition: border-color 0.3s ease-in-out;
+        border: 1px solid #aaa;
+      }
+      
+      #contact textarea {
+        height: 100px;
+        max-width: 100%;
+        resize: none;
+      }
+      
+      #contact button[type="submit"] {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background: #005684;
+        color: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+        font-size: 15px;
+      }
+      
+      #contact button[type="submit"]:hover {
+        background: #00a6ff;
+        -webkit-transition:  0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
+      }
+      
+      #contact button[type="submit"]:active {
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      
+      #contact input:focus,
+      #contact textarea:focus {
+        outline: 0;
+        border: 1px solid #aaa;
+      }
+      
+      ::-webkit-input-placeholder {
+        color: #888;
+      }
+      
+      :-moz-placeholder {
+        color: #888;
+      }
+      
+      ::-moz-placeholder {
+        color: #888;
+      }
+      
+      :-ms-input-placeholder {
+        color: #888;
+      }
+
+/*page4 grid3 end*/
