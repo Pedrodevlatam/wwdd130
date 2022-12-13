@@ -121,13 +121,7 @@ nav.fill ul li a:hover:after {
         font-weight: bold;
         line-height: 1;
         }
-.title-underline {
-        height: 2px;
-        width: 60%;
-        background-color: #56007c;
-        margin-left: 40px;
-        margin-top: -20px;
-        }
+
 .home-subtitle {
         padding-left: 40px;
         padding-right: 250px;
